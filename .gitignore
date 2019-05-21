@@ -1,0 +1,41 @@
+###################
+*.out
+*.exe
+*.test
+*.bin
+*.run
+# Packages #
+
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+
+# Specific files #
+######################
+*.xml
+*.html
+
+
+######################
+*/vendor/*
+
+#exclusion of specific folder
+
+
+#exclusion of specific files
+/services/continuum/config/realtime_config.json
+
+
+
