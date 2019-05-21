@@ -10,8 +10,14 @@
 #### B: Create following folder structure and then set the GOPATH variable
 	1: .../workspace/src/github.com/
 
-#### C: Clone GoPracPro/ code from the following url in specified folder:  
+#### C: Clone GoPracPro code from the following url in specified folder:  
 	1: https://github.com/kulkarnikoustubh/GoPracPro.git
+	
+#### D: Build and Run
+	1: Go to .../workspace/src/github.com/GoPracPro/src (Terminal for Linux/Mac and Command Prompt Windows)
+	2: Execute command to create executable as : go build -o nextbus
+	3: Run executable created with name nextbus with arguments bus route,direction and  stop name
+	 ex on linux : ./nextbus "METRO Blue Line" "Bloomington Central Station" "South"  	
 
 ### Code Package structure	
 	
@@ -23,4 +29,7 @@
 			
 	Note:
 		- No Package at same level accesses each other.
-		- Packages that needs to be imported by other packages, should be either part of local package or subpackage of the package that wants to import it.			  		  	
+		- Packages that needs to be imported by other packages, should be either part of local package or subpackage of the package that wants to import it.
+
+### Metro Transit API Reference doc
+    http://svc.metrotransit.org/					  		 	
